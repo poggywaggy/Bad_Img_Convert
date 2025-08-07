@@ -26,11 +26,11 @@ Jump to: [Quick Start](#quick-start) | [Demo](#demo) | [Dependencies](#dependenc
 Here’s what happens when you run the program:
 
 - **Input:**  
-  Place your image in `Project/input/input.png`
+  Place your image in `Project/input/`
 
 - **Output:**  
   After running, you’ll see:
-  - `Project/output/input.png` (the quantized image)
+  - `Project/output/input.png` 
   - `Project/output/input/tiles/tile_r0_c0.png`, `tile_r0_c1.png`, ... (upscaled tiles with grid lines)
 
 **Example folder structure after running:**
