@@ -10,14 +10,16 @@ Jump to: [Quick Start](#quick-start) | [Demo](#demo) | [Dependencies](#dependenc
 
 1. **Install Python** ([see instructions](#installing-python))
 2. **Install dependencies** ([see instructions](#dependencies))
-3. **Place your PNG images** in the `Project/input` folder.
-4. **Edit `palette.json`** in the `Project` folder if you want a custom palette.
-5. **Open a terminal** in the `Project` folder.
-6. **Run the program:**
+3. **Download files** Both `convert.py` and `palette.json`
+4. **Move Files** into a folder
+5. **Place your PNG images** in the `Project/input` folder.
+6. **Edit `palette.json`** in the `Project` folder if you want a custom palette.
+7. **Open a terminal** in the `Project` folder.
+8. **Run the program:**
    ```
    python convert.py
    ```
-7. **Find your results** in the `Project/output` folder.
+9. **Find your results** in the `Project/output` folder.
 
 
 
