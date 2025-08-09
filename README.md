@@ -2,7 +2,7 @@
 
 **wPlace_convert** is a simple tool to convert images so that they only use colors from a specific palette. It also splits the image into tiles, upscales them, and adds grid lines for easy viewing. (MAKE SURE THE TILES ARE DIVISIBLE) [More Info](#more-info)
 
-Jump to: [Quick Start](#quick-start) | [Demo](#demo) | [Dependencies](#dependencies) | [Installing Python](#installing-python)
+Jump to: [Quick Start](#quick-start) | [Demo](#demo) | [Dependencies](#dependencies) | [Installing Python](#installing-python) | [How to Griddy](#griddy)
 
 
 
@@ -18,6 +18,10 @@ Jump to: [Quick Start](#quick-start) | [Demo](#demo) | [Dependencies](#dependenc
 8. **Run the program:**
    ```
    python convert.py
+   ```
+   or
+   ```
+   python convert_new.py
    ```
 9. **Find your results** in the `Project/output` folder.
 
@@ -109,4 +113,14 @@ If you don’t have Python:
 - **Questions?**  
   Open an [issue on GitHub](https://github.com/poggywaggy/wPlace_convert/issues) or ask me on twitter or smth.
 
+## Griddy
+- If you are using the [wplace](https://www.wplace.org/) image converter already, you can use griddy.py!
+- Just run this command snippet to create the needed folders
+  ```
+  python griddy.py
+  ```
+- After running, you should tell the program the pixel size to make a proper grid. Shown like the following:
+  ```
+  python griddy.py {valueGreaterThan2}
+  ```
 
