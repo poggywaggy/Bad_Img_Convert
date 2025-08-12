@@ -13,16 +13,26 @@ Jump to: [Quick Start](#quick-start) | [Demo](#demo) | [Dependencies](#dependenc
 3. **Download files** Both `convert.py` and `palette.json`
 4. **Move Files** into a folder
 5. **Place your PNG images** in the `Project/input` folder.
-6. **Edit `palette.json`** in the `Project` folder if you want a custom palette.
+6. **Edit `palette.json`** in the `Project` folder if you want a custom palette. the file `special_pallette.json` contains the premium colors as well!
 7. **Open a terminal** in the `Project` folder.
 8. **Run the program:**
    ```
-   python convert.py
+   python convert.py 
    ```
    or
    ```
    python convert_new.py
    ```
+
+   If you want the premium pallete colors, do:
+   ```
+   python convert.py special_pallete.json
+   ```
+   or
+   ```
+   python convert_new.py special_pallete.json
+   ```
+
 9. **Find your results** in the `Project/output` folder.
 
 
@@ -103,13 +113,17 @@ If you don’t have Python:
 
 ## More Info
 
-- **WARNING:** This program intends that the dimentions of the image are squares and that the square can be divisible by the tile size (128x128 is divisible by 32x32) I havent tested rectangles or partial squares, if you care to do that tell me how it goes!
 - **Change the palette:** Edit `palette.json` in the `Project` folder. Each color is a list like `[R, G, B]`.
 - **Change tile size or upscale:**  
   Run with options, for example:
   ```
-  python convert.py --tile-size=16 --upscale=8
+  python convert.py --tile-w=16 --tile-h=32 --pixel-scale=5
   ```
+  or
+  ```
+  python convert_new.py special_pallete.json --tile-w=32 --tile-h=18 --pixel-scale=5
+  ```
+
 - **Questions?**  
   Open an [issue on GitHub](https://github.com/poggywaggy/wPlace_convert/issues) or ask me on twitter or smth.
 
